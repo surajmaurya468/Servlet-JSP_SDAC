@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>A</servlet-name>
+		<servlet-class>DemoConfig</servlet-class>
+
+
+		<init-param>
+
+			<param-name>JDBC</param-name>
+			<param-value>com.jdbc.driver</param-value>
+
+		</init-param>
+
+		<init-param>
+
+			<param-name>SQL</param-name>
+			<param-value>com.sql.driver</param-value>
+		</init-param>
+
+
+
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>A</servlet-name>
+		<url-pattern>/servlet</url-pattern>
+	</servlet-mapping>
+
+</web-app>
+

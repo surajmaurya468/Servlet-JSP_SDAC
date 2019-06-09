@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>servlet1</servlet-name>
+    <servlet-class>Firstservlet</servlet-class>
+    <filter>
+    <filter-name>Myfilter</filter-name>
+    <filter-class>Myfilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>Myfilter</filter-name>
+    <servlet-name>Firstservlet</servlet-name>
+  </filter-mapping>
+    
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servlet1</servlet-name>
+    <url-pattern>/Firstservlet</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

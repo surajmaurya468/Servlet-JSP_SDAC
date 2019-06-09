@@ -1,0 +1,14 @@
+<web-app>
+	<servlet>
+		<servlet-name>a</servlet-name>
+		<jsp-file>index.jsp</jsp-file>
+	</servlet>
+	<context-param>
+		<param-name>Driver</param-name>
+		<param-value>com.jdbc.sql.all</param-value>
+	</context-param>
+	<servlet-mapping>
+		<servlet-name>a</servlet-name>
+		<url-pattern>/Hi</url-pattern>
+	</servlet-mapping>
+</web-app>

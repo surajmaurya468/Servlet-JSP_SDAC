@@ -1,0 +1,15 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.2</jsp-version>
+	<uri>/Hello</uri>
+	
+	<tag>
+	
+	
+	<tag-name>suraj</tag-name>
+	<tag-class>com.Demo</tag-class>
+
+	</tag>
+
+
+</taglib>
